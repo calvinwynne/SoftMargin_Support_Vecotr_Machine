@@ -423,7 +423,7 @@ accuracy_dict = {}
 
 for itr in range(11):
 
-    dataset = pd.read_csv("wildfires.txt", sep="\t")
+    dataset = pd.read_csv("dataset/wildfires.txt", sep="\t")
 
     cols_to_scale  = ['temp', 'humidity', "rainfall", "drought_code", "buildup_index", "wind_speed"]
     cols_to_znorm  = ["rainfall", "drought_code", "buildup_index", "wind_speed"]
