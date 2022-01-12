@@ -1,1 +1,1 @@
-# SoftMargin_Support_Vecotr_Machine
+#Custom Soft-Margin Support Vector Machine
